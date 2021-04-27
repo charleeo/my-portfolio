@@ -1,0 +1,36 @@
+/*Medial queris*/
+@media(max-width:450px){
+  nav{
+    .links{
+      display: none !important;
+    }
+    .toggler{
+      display: block;
+    }
+  }
+  .one-opacity{
+   visibility: visible;
+    transition: 1s all;
+    padding-bottom: 30px;
+    z-index: 100;
+  }
+  .zero-opacity{
+    visibility: hidden;
+    height: 0;
+    transition: 1s all;
+    z-index: 100;
+  }
+
+  .home-page{
+    p:first-child{
+      font-size: 1.5rem;
+    }
+   }
+   p{
+     font-size: 1.2rem !important;
+   }
+   h1, h2, h3, h4, h5, h6{
+     font-size: 1rem !important;
+     line-height: 2;
+   }
+}

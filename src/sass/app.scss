@@ -1,0 +1,20 @@
+*{
+  overflow-x: hidden;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a{
+  text-decoration: none;
+}
+@import './config';
+@import './navbar';
+@import "./home";
+@import './skills';
+@import'./_experinces.scss';
+@import'./_about';
+@import './contact';
+@import './projects';
+@import './footer';
+@import"./media";
+

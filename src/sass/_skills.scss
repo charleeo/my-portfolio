@@ -1,0 +1,48 @@
+.skills{
+  min-height: 200px;
+  background: #faf9f8;
+  padding: 40px 0px;
+  // width: 100vw;
+  box-shadow: 3px 12px 23px 10px #81758d;
+  border-radius: 10px;
+  .skills-label{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+}
+.label-percent{
+  display: flex;
+  justify-content: space-between;
+  padding: 1px 20px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+#javascript, #mysql, #orm, #php, #laravel, #express{
+  width: 70%;
+}
+#jquery, #react, #node, #rest{
+  width: 60%;
+}
+#html{
+  width: 90%;
+}
+#css3,#git{
+  width: 80%;
+}
+
+
+.inputs-wrapper{
+  background: #d3d1d1;
+  .inputs{
+    background: #58278a;
+    color: #ffffff;
+    display: inline-block;
+    text-align: end;
+    border-radius: 5px;
+    padding: 4px 10px;
+    border: 0px solid #684b37;
+  }
+}
