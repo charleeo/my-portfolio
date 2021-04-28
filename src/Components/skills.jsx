@@ -20,7 +20,17 @@ const Skills =()=>{
 
       <div className="skills-label" data-aos="fade-right">
         <div className="label-percent ">
-          <label htmlFor="css3">css3</label>
+          <label htmlFor="css3">css</label>
+          <span>80%</span>
+        </div>
+        <div className="inputs-wrapper">
+          <input type="rang"  id='css3' className="inputs" />
+        </div>
+      </div>
+
+      <div className="skills-label" data-aos="fade-right">
+        <div className="label-percent ">
+          <label htmlFor="css3">bootstrap</label>
           <span>80%</span>
         </div>
         <div className="inputs-wrapper">
@@ -74,7 +84,7 @@ const Skills =()=>{
 
       <div className="skills-label">
         <div className="label-percent ">
-          <label htmlFor="posgresql">posgresql</label>
+          <label htmlFor="posgresql">postgresql</label>
           <span>70%</span>
         </div>
         <div className="inputs-wrapper">

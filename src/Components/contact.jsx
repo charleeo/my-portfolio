@@ -20,7 +20,7 @@ export const Contact = ()=>{
              <div className="contact_addrress">
                
                <div className="text-secondary">
-               <i className="fas fa-marker-alt"></i>Address: 15, Mercy Close, Olori, Akute
+               <i className="fas fa-marker-alt"></i>Address: : 15, Abrahim Akowajon Street, Olori-Baale, Akute, Ojodu-Berger, Lagos State, Nigeria.     
                  </div>
              </div>
            </div>

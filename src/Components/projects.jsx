@@ -20,7 +20,7 @@ export const Project = ()=>{
           </a>
         </div>
       </div>
-      <a className='details' href='https://kolovest-netlify.app' target='_blank' rel='noreferrer'><i className="fas fa-eye fa-2x"></i> Details</a>
+      <a className='details' href='https://kolovest.netlify.app' target='_blank' rel='noreferrer'><i className="fas fa-eye fa-2x"></i> Details</a>
     </div>
     <div className='projects_wrapper'>
       <div className="projects_item" data-aos='fade-right'>

@@ -11,11 +11,10 @@ const About=()=>{
               <section className="about_bio" id='about'>
                 <h2>Bio</h2>
                 <p data-aos='fade-up'>
-                    I am a <b> fullstack web developer </b> with passion and drive for elegant and enterprise applications. 
+                I am a software developer with over 3 years of experience in developing enterprise solutions. 
                 </p>
-                <p data-aos='fade-left'>
-                    I believe in a technologically driven <b>World</b> and I am always working and striving to contribute my quota in making the 
-                    <b>World</b> a better and more better place through technology 
+                <p>
+                My skills set are in PHP, Laravel, Node.JS, MySQL and React. I have worked in both start-up environments as well as some large corporate organizations and this has given me the needed experience in telling users’ story and also transforming same into real projects. I love to work in a team but can also work in isolation and still deliver good results.
                 </p>
               </section>
   </>
