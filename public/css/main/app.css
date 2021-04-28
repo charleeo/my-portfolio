@@ -35,7 +35,7 @@ nav .logo {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
-  color: #343634;
+  color: #ced1ce;
   padding-left: 20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 3rem;
@@ -166,7 +166,7 @@ nav .toggler:hover {
 }
 
 .home-page .name span {
-  color: #58278a;
+  color: #faf8fc;
   display: block;
   border-top: 20px dashed #141216;
 }
@@ -244,11 +244,11 @@ nav .toggler:hover {
   width: 100%;
 }
 
-#javascript, #mysql, #orm, #php, #laravel, #express {
+#javascript, #mysql, #orm, #php, #laravel, #express, #posgresql {
   width: 70%;
 }
 
-#jquery, #react, #node, #rest {
+#jquery, #react, #node, #rest, #mongodb {
   width: 60%;
 }
 
@@ -376,9 +376,9 @@ nav .toggler:hover {
 .projects_item::after {
   content: '';
   position: absolute;
-  top: 100%;
+  bottom: 10%;
   left: 0;
-  height: 100%;
+  height: 90%;
   width: 100%;
   background: -webkit-gradient(linear, left top, left bottom, from(#03021f), to(transparent));
   background: linear-gradient(to bottom, #03021f, transparent);
@@ -398,29 +398,45 @@ nav .toggler:hover {
 
 .projects_btns {
   position: absolute;
-  top: 0;
-  height: 100%;
-  width: 100%;
+  top: 0.2rem;
+  min-height: 0;
   z-index: 1;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  text-align: center;
 }
 
 .projects_btn {
   opacity: 0;
-  color: #000000;
+  color: #fefefe;
+  background: #03021f;
+  padding: 3px;
+  line-height: 1;
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 .projects_btn:hover {
   color: #ffffff;
+}
+
+.details {
+  color: #000;
+  background: #fefefe;
+  padding: 5px;
+  border: #fefefe 2px solid;
+  border-radius: 5px;
+  display: block;
+  margin-top: 2px;
+  width: 6rem;
+  text-align: center;
 }
 
 footer {

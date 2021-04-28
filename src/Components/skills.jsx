@@ -74,6 +74,26 @@ const Skills =()=>{
 
       <div className="skills-label">
         <div className="label-percent ">
+          <label htmlFor="posgresql">posgresql</label>
+          <span>70%</span>
+        </div>
+        <div className="inputs-wrapper">
+          <input type="rang"  id='posgresql' className="inputs" />
+        </div>
+      </div>
+
+      <div className="skills-label">
+        <div className="label-percent ">
+          <label htmlFor="mongodb">mongodb</label>
+          <span>70%</span>
+        </div>
+        <div className="inputs-wrapper">
+          <input type="rang"  id='mongodb' className="inputs" />
+        </div>
+      </div>
+
+      <div className="skills-label">
+        <div className="label-percent ">
           <label htmlFor="orm">ORM</label>
           <span>70%</span>
         </div>
@@ -124,7 +144,7 @@ const Skills =()=>{
 
       <div className="skills-label" data-aos="fade-right">
         <div className="label-percent ">
-          <label htmlFor="rest">restful services</label>
+          <label htmlFor="rest">restful services(APIs)</label>
           <span>60%</span>
         </div>
         <div className="inputs-wrapper">

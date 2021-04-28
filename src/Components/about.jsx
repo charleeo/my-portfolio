@@ -11,17 +11,12 @@ const About=()=>{
               <section className="about_bio" id='about'>
                 <h2>Bio</h2>
                 <p data-aos='fade-up'>
-                    Charles Otaru is a tech ardent, an avid information seeker and a change 
-                    maker.
-                    He is one of those who hold the believe that 'advancement in technology alone does not result in a better world but a mindset for singleness in vision towards a better and a changed world combine with technology can help better the world'.
+                    I am a <b> fullstack web developer </b> with passion and drive for elegant and enterprise applications. 
                 </p>
-                <hr/>
-                <p data-aos='fade-down'>
-                    He studied Civiv Engineering From the prestigious polytechniques 'uchi
-                    Polytechnic but his quest for technology and the desire to be part of 
-                    the world tech change maker, he started a new career as web develper. <br/>
+                <p data-aos='fade-left'>
+                    I believe in a technologically driven <b>World</b> and I am always working and striving to contribute my quota in making the 
+                    <b>World</b> a better and more better place through technology 
                 </p>
-
               </section>
   </>
   )
