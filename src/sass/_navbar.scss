@@ -1,17 +1,14 @@
 nav{
-  background: linear-gradient(to bottom,  #141216 100%, #05010a );
   display: flex;
   justify-content: space-between;
   align-items: center;
   min-height: 10vh;
   padding-right: 20px;
-  position: sticky;
-  top: 0;
- font-family: serif;
  line-height: 1.4;
+ 
   .logo{
     flex: 2;
-    color: #ced1ce;
+    color: #000000;
     padding-left: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3rem;
@@ -22,7 +19,7 @@ nav{
     justify-content: space-evenly;
     .link-items{
       .anchors{
-        color: #ffffff;
+        color: #000000;
         text-transform: uppercase;
         &:hover{
           color: #595c59;
@@ -40,18 +37,18 @@ nav{
     .toggle-bar:first-child{
       width: 40px;
       height: 5px;
-      background: #e6e9e6;
+      background: #000000;
     }
     .toggle-bar:nth-child(2){
       width: 20px;
       height: 2px;
-      background: #e6e9e6;
+      background: #000000;
       margin: 5px auto;
     }
     .toggle-bar:nth-child(3){
       width: 40px;
       height: 5px;
-      background: #e6e9e6;
+      background: #000000;
       margin: 5px auto;
     }
     
@@ -89,3 +86,24 @@ nav{
 }
 
 
+.nav{
+  background: #58278a;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0px;
+  z-index: 200;
+  .logo{
+    color: #ffffff;
+  }
+  .links{
+    .link-items{
+      .anchors{
+        color: #ffffff;
+      }
+    }
+  }
+}
+.nav-c{
+  background: #ffffff;
+}

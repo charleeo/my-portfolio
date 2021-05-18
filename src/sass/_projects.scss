@@ -1,89 +1,43 @@
 .projects{
-  margin-bottom: 1rem;
-  background: #b4b3b2;
-  padding-bottom: 2rem;
-  &_bio-image{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    .text-secondary{
-      margin-bottom: 2rem;
-      font-size: 2rem;
-      color: #fefefe;
-    }
+  background: #ffffff;
+  padding: 10px;
+  .projects-details{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   margin-bottom: 30px;
+   .project-image{
+     margin-bottom: 20px;
+    flex: 6;
+     .img{
+       height: 400px;
+       width: 100%;
+     }
+   }
+   .project-about{
+    height: 400px;
+     flex: 3;
+     margin: 0px 10px;
+     color: #000000;
+     line-height: 1.2;
+     box-shadow: 2px 3px 4px 6px #777474;
+     padding: 0px 10px;
+   }
+   .developer-role{
+     text-align: center;
+     border-top: 3px solid #53024d;
+     box-shadow: 10px 3px 4px 1px #535252;
+     padding: 0px 5px;
+     .tools{
+       font-size: 0.7rem;
+       li{
+         margin-bottom: 4px;
+       }
+     }
+     .role{
+       color: #800080;
+       border-top: 3px solid #000000;
+     }
+   }
   }
-  &_items{
-    width:60vw;
-    margin: 2rem auto 0 auto;
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 2rem;
-  }
-  &_item{
-    position: relative;
-    border-bottom: 5px solid $secondary-color;
-    overflow: hidden;
-    cursor: pointer;
-    img{
-      width:100%;
-    }
-    &::after{
-      content: '';
-      position: absolute;
-      bottom:10%;
-      left: 0;
-      height: 90%;
-      width: 100%;
-      background:linear-gradient(to bottom, #03021f,transparent);
-      opacity: 0;
-      @include transition-ease;
-    }
-    &:hover{
-      &::after{
-        top: 0;
-        opacity: 0.9;
-      }
-      .projects_btn{
-        opacity: 1;
-      }
-    }
-  }
-  &_btns{
-    position: absolute;
-    top: 0.2rem;
-    min-height: 0;
-    // width: 100%;
-    z-index: 1;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    // text-align: center;
-  }
-  &_btn{
-    opacity: 0;
-    color: #fefefe;
-    background: #03021f;
-    padding: 3px;
-    line-height: 1;
-
-    @include transition-ease;
-    &:hover{
-      color: set-text-color($primary-color);
-
-    }
-  }
- 
-}
-
-.details{
-  color: #000;
-  background: #fefefe;
-  padding: 5px;
-  border: #fefefe 2px solid;
-  border-radius: 5px;
-  display: block;
-  margin-top: 2px;
-  width: 6rem;
-  text-align: center;
 }

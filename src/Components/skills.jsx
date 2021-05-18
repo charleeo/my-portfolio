@@ -6,9 +6,9 @@ const Skills =()=>{
    Aos.init({duration:2000})
   })
   return(
-    <section className="skills"id='skills' data-aos='fade-up'>
+    <section className="skills"id='skills' >
        <h5 style={{textAlign:"center", color:'#000'}}>SKILLS</h5>  <hr/>
-      <div className="skills-label" data-aos="fade-left">
+      <div className="skills-label" >
         <div className="label-percent ">
           <label htmlFor="html">html5</label>
           <span>90%</span>
@@ -18,7 +18,7 @@ const Skills =()=>{
         </div>
       </div>
 
-      <div className="skills-label" data-aos="fade-right">
+      <div className="skills-label" >
         <div className="label-percent ">
           <label htmlFor="css3">css</label>
           <span>80%</span>
@@ -28,7 +28,7 @@ const Skills =()=>{
         </div>
       </div>
 
-      <div className="skills-label" data-aos="fade-right">
+      <div className="skills-label" >
         <div className="label-percent ">
           <label htmlFor="css3">bootstrap</label>
           <span>80%</span>
@@ -39,7 +39,7 @@ const Skills =()=>{
       </div>
 
      
-      <div className="skills-label" data-aos="fade-left">
+      <div className="skills-label" >
         <div className="label-percent javascript">
           <label htmlFor="javaScript">JavaScript</label>
           <span>70%</span>
@@ -50,7 +50,7 @@ const Skills =()=>{
       </div>
 
 
-      <div className="skills-label" data-aos="fade-right">
+      <div className="skills-label" >
         <div className="label-percent ">
           <label htmlFor="Jquery">JQuery</label>
           <span>60%</span>
@@ -60,7 +60,7 @@ const Skills =()=>{
         </div>
       </div>
 
-      <div className="skills-label" data-aos="fade-left">
+      <div className="skills-label" >
         <div className="label-percent ">
           <label htmlFor="react">React</label>
           <span>60%</span>
@@ -112,7 +112,7 @@ const Skills =()=>{
         </div>
       </div>
 
-      <div className="skills-label" data-aos="fade-left">
+      <div className="skills-label" >
         <div className="label-percent ">
           <label htmlFor="php">php</label>
           <span>70%</span>
@@ -122,7 +122,7 @@ const Skills =()=>{
         </div>
       </div>
 
-      <div className="skills-label" data-aos="fade-left">
+      <div className="skills-label" >
         <div className="label-percent ">
           <label htmlFor="laravel">laravel</label>
           <span>70%</span>
@@ -132,7 +132,7 @@ const Skills =()=>{
         </div>
       </div>
 
-      <div className="skills-label" data-aos="fade-right">
+      <div className="skills-label" >
         <div className="label-percent ">
           <label htmlFor="node">node js</label>
           <span>60%</span>
@@ -152,7 +152,7 @@ const Skills =()=>{
         </div>
       </div>
 
-      <div className="skills-label" data-aos="fade-right">
+      <div className="skills-label" >
         <div className="label-percent ">
           <label htmlFor="rest">restful services(APIs)</label>
           <span>60%</span>
@@ -162,7 +162,7 @@ const Skills =()=>{
         </div>
       </div>
 
-      <div className="skills-label" data-aos="fade-left">
+      <div className="skills-label" >
         <div className="label-percent ">
           <label htmlFor="git">vesrsion control(git)</label>
           <span>80%</span>

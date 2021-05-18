@@ -1,5 +1,23 @@
 /*Medial queris*/
+@media(max-width:725px){
+  .projects{
+    .projects-details{
+     flex-direction: column;
+    }
+  }
+}
 @media(max-width:450px){
+ 
+  .skills{
+    width: 90%;
+  }
+  #about-me{
+    flex-direction: column-reverse;
+    justify-content: flex-start;
+  }
+  .me{
+    margin-left: 0;
+  }
   nav{
     .links{
       display: none !important;

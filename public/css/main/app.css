@@ -11,8 +11,6 @@ a {
 }
 
 nav {
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(100%, #141216), to(#05010a));
-  background: linear-gradient(to bottom, #141216 100%, #05010a);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,10 +22,6 @@ nav {
           align-items: center;
   min-height: 10vh;
   padding-right: 20px;
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  font-family: serif;
   line-height: 1.4;
 }
 
@@ -35,7 +29,7 @@ nav .logo {
   -webkit-box-flex: 2;
       -ms-flex: 2;
           flex: 2;
-  color: #ced1ce;
+  color: #000000;
   padding-left: 20px;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 3rem;
@@ -54,7 +48,7 @@ nav .links {
 }
 
 nav .links .link-items .anchors {
-  color: #ffffff;
+  color: #000000;
   text-transform: uppercase;
 }
 
@@ -74,20 +68,20 @@ nav .toggler {
 nav .toggler .toggle-bar:first-child {
   width: 40px;
   height: 5px;
-  background: #e6e9e6;
+  background: #000000;
 }
 
 nav .toggler .toggle-bar:nth-child(2) {
   width: 20px;
   height: 2px;
-  background: #e6e9e6;
+  background: #000000;
   margin: 5px auto;
 }
 
 nav .toggler .toggle-bar:nth-child(3) {
   width: 40px;
   height: 5px;
-  background: #e6e9e6;
+  background: #000000;
   margin: 5px auto;
 }
 
@@ -136,11 +130,30 @@ nav .toggler:hover {
   z-index: 100;
 }
 
+.nav {
+  background: #58278a;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0px;
+  z-index: 200;
+}
+
+.nav .logo {
+  color: #ffffff;
+}
+
+.nav .links .link-items .anchors {
+  color: #ffffff;
+}
+
+.nav-c {
+  background: #ffffff;
+}
+
 .home-page {
-  background: -webkit-gradient(linear, left top, left bottom, from(#141216), to(#05010a));
-  background: linear-gradient(to bottom, #141216, #05010a 100%);
+  background: #58278a;
   height: 80vh;
-  margin-top: -10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -159,16 +172,16 @@ nav .toggler:hover {
 
 .home-page .name {
   text-align: center;
-  color: #e7e2ec;
+  color: #e0d6e9;
   padding-left: 20px;
   text-transform: uppercase;
   font-size: 3rem;
+  border-bottom: 20px dashed #e7e2ec;
 }
 
 .home-page .name span {
-  color: #faf8fc;
+  color: #e7e2ec;
   display: block;
-  border-top: 20px dashed #141216;
 }
 
 .home-page .center {
@@ -189,11 +202,10 @@ nav .toggler:hover {
       -ms-flex-align: center;
           align-items: center;
   padding: 20px;
-  border-top: 10px dashed #e7e2ec;
 }
 
 .home-page .center .profession {
-  color: #3f3b3b;
+  color: #000000;
   text-transform: capitalize;
   font-size: 2rem;
   font-weight: 900;
@@ -201,8 +213,7 @@ nav .toggler:hover {
 }
 
 .home-page .center .drive {
-  border-bottom: 4px dashed #1a161a;
-  color: #Ffffff;
+  color: #ffffff;
   text-transform: capitalize;
   text-align: start;
   font-size: 2rem;
@@ -211,11 +222,22 @@ nav .toggler:hover {
 
 .skills {
   min-height: 200px;
-  background: #faf9f8;
-  padding: 40px 0px;
-  -webkit-box-shadow: 3px 12px 23px 10px #81758d;
-          box-shadow: 3px 12px 23px 10px #81758d;
+  background: #ffffff;
+  padding: 0px 20px;
+  width: 70%;
+  -webkit-box-shadow: 3px 12px 23px 10px #717172;
+          box-shadow: 3px 12px 23px 10px #717172;
   border-radius: 10px;
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-item-align: center;
+      align-self: center;
 }
 
 .skills .skills-label {
@@ -275,7 +297,7 @@ nav .toggler:hover {
 }
 
 .jobs {
-  background: #f0f8ff;
+  background: #ffffff;
   padding: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -293,9 +315,54 @@ nav .toggler:hover {
 }
 
 .about_bio {
-  background: #dadfdf;
+  background: #ffffff;
   padding: 0px 20px;
   line-height: 1.5;
+  width: 70%;
+  margin: auto;
+  -webkit-box-shadow: 3px 12px 23px 10px #f6eef8;
+          box-shadow: 3px 12px 23px 10px #f6eef8;
+  margin-bottom: 30px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.about_bio h2 {
+  color: #ffff;
+}
+
+#about-me {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 40px;
+}
+
+.text-me {
+  -webkit-box-flex: 8;
+      -ms-flex: 8;
+          flex: 8;
+  color: #000000;
+}
+
+.me {
+  height: 200px;
+  width: 200px;
+  border-radius: 100%;
+  position: relative;
+  top: 0px;
+  overflow-y: hidden;
+  z-index: 8;
+  margin-left: auto;
 }
 
 .contact {
@@ -325,118 +392,66 @@ nav .toggler:hover {
 }
 
 .projects {
-  margin-bottom: 1rem;
-  background: #b4b3b2;
-  padding-bottom: 2rem;
+  background: #ffffff;
+  padding: 10px;
 }
 
-.projects_bio-image {
+.projects .projects-details {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 30px;
 }
 
-.projects_bio-image .text-secondary {
-  margin-bottom: 2rem;
-  font-size: 2rem;
-  color: #fefefe;
+.projects .projects-details .project-image {
+  margin-bottom: 20px;
+  -webkit-box-flex: 6;
+      -ms-flex: 6;
+          flex: 6;
 }
 
-.projects_items {
-  width: 60vw;
-  margin: 2rem auto 0 auto;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-  grid-gap: 2rem;
-}
-
-.projects_item {
-  position: relative;
-  border-bottom: 5px solid #ff652f;
-  overflow: hidden;
-  cursor: pointer;
-}
-
-.projects_item img {
+.projects .projects-details .project-image .img {
+  height: 400px;
   width: 100%;
 }
 
-.projects_item::after {
-  content: '';
-  position: absolute;
-  bottom: 10%;
-  left: 0;
-  height: 90%;
-  width: 100%;
-  background: -webkit-gradient(linear, left top, left bottom, from(#03021f), to(transparent));
-  background: linear-gradient(to bottom, #03021f, transparent);
-  opacity: 0;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+.projects .projects-details .project-about {
+  height: 400px;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  margin: 0px 10px;
+  color: #000000;
+  line-height: 1.2;
+  -webkit-box-shadow: 2px 3px 4px 6px #777474;
+          box-shadow: 2px 3px 4px 6px #777474;
+  padding: 0px 10px;
 }
 
-.projects_item:hover::after {
-  top: 0;
-  opacity: 0.9;
-}
-
-.projects_item:hover .projects_btn {
-  opacity: 1;
-}
-
-.projects_btns {
-  position: absolute;
-  top: 0.2rem;
-  min-height: 0;
-  z-index: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.projects_btn {
-  opacity: 0;
-  color: #fefefe;
-  background: #03021f;
-  padding: 3px;
-  line-height: 1;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-}
-
-.projects_btn:hover {
-  color: #ffffff;
-}
-
-.details {
-  color: #000;
-  background: #fefefe;
-  padding: 5px;
-  border: #fefefe 2px solid;
-  border-radius: 5px;
-  display: block;
-  margin-top: 2px;
-  width: 6rem;
+.projects .projects-details .developer-role {
   text-align: center;
+  border-top: 3px solid #53024d;
+  -webkit-box-shadow: 10px 3px 4px 1px #535252;
+          box-shadow: 10px 3px 4px 1px #535252;
+  padding: 0px 5px;
+}
+
+.projects .projects-details .developer-role .tools {
+  font-size: 0.7rem;
+}
+
+.projects .projects-details .developer-role .tools li {
+  margin-bottom: 4px;
+}
+
+.projects .projects-details .developer-role .role {
+  color: #800080;
+  border-top: 3px solid #000000;
 }
 
 footer {
@@ -456,7 +471,31 @@ footer {
 }
 
 /*Medial queris*/
+@media (max-width: 725px) {
+  .projects .projects-details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 @media (max-width: 450px) {
+  .skills {
+    width: 90%;
+  }
+  #about-me {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .me {
+    margin-left: 0;
+  }
   nav .links {
     display: none !important;
   }

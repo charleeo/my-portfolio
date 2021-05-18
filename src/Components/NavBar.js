@@ -7,9 +7,20 @@ const Navbar = ()=>{
       setToggle(false)
     }else{ setToggle(true)}
   }
+
+  const [colorChange, setColorchange] = useState(false);
+const changeNavbarColor = () =>{
+   if(window.scrollY >= 90){
+     setColorchange(true);
+   }
+   else{
+     setColorchange(false);
+   }
+};
+window.addEventListener('scroll', changeNavbarColor);
   return (
     <>
-  <nav>
+  <nav className={`${colorChange?"nav":"nav-c"}`} >
     <div className='logo'>COF</div>
     <div className= "links">
       <div className='link-items'><a className="anchors" href ='#home'>Home</a></div>

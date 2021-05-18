@@ -7,7 +7,7 @@ import HomePage from './Components/home';
 import Navbar from './Components/NavBar';
 import Skills from './Components/skills';
 import 'aos/dist/aos.css'
-import { Project } from './Components/projects';
+import { Project } from './Components/projects2';
 import { Experiences } from './Components/experience';
 
 const App=()=>{
@@ -21,9 +21,9 @@ const App=()=>{
            <HomePage/>
          </Route>
       </Switch>
+      <About/>
       <Skills/>
       <Experiences/>
-      <About/>
       <Project/>
       <Contact/>
       <Footer/>
