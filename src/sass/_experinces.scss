@@ -1,9 +1,14 @@
 .jobs{
   background: #ffffff;
-  padding: 20px;
+  // padding: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
   text-align: center;
+}
+hr{
+
+  border: 1px solid #777373;
+  width: 100%;
 }

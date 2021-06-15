@@ -3,7 +3,7 @@
   background: #ffffff;
   padding:0px 20px;
   width: 70%;
-  box-shadow: 3px 12px 23px 10px #717172;
+  // box-shadow: 3px 12px 23px 10px #717172;
   border-radius: 10px;
   margin: auto;
   display: flex;
@@ -31,7 +31,7 @@
   width: 60%;
 }
 #html{
-  width: 90%;
+  width: 85%;
 }
 #css3,#git{
   width: 80%;
@@ -39,10 +39,9 @@
 
 
 .inputs-wrapper{
-  background: #d3d1d1;
+  background: #eeecec;
   .inputs{
-    background: #58278a;
-    color: #ffffff;
+    background: #d38383;
     display: inline-block;
     text-align: end;
     border-radius: 5px;

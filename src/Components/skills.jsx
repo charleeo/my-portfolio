@@ -1,20 +1,20 @@
-import React,{useEffect} from 'react';
-import Aos from 'aos'
+import React from 'react';
+// import Aos from 'aos'
 
 const Skills =()=>{
-  useEffect(()=>{
-   Aos.init({duration:2000})
-  })
+  // useEffect(()=>{
+  //  Aos.init({duration:2000})
+  // })
   return(
     <section className="skills"id='skills' >
-       <h5 style={{textAlign:"center", color:'#000'}}>SKILLS</h5>  <hr/>
+       <h5 >SKILLS</h5>  
       <div className="skills-label" >
         <div className="label-percent ">
           <label htmlFor="html">html5</label>
-          <span>90%</span>
+          <span>85%</span>
         </div>
         <div className="inputs-wrapper">
-          <input type="rang"  id='html' className="inputs" />
+          <input type="rang" readOnly   id='html' className="inputs" />
         </div>
       </div>
 
@@ -24,7 +24,7 @@ const Skills =()=>{
           <span>80%</span>
         </div>
         <div className="inputs-wrapper">
-          <input type="rang"  id='css3' className="inputs" />
+          <input type="rang" readOnly   id='css3' className="inputs" />
         </div>
       </div>
 
@@ -34,7 +34,7 @@ const Skills =()=>{
           <span>80%</span>
         </div>
         <div className="inputs-wrapper">
-          <input type="rang"  id='css3' className="inputs" />
+          <input type="rang" readOnly   id='css3' className="inputs" />
         </div>
       </div>
 
@@ -45,7 +45,7 @@ const Skills =()=>{
           <span>70%</span>
         </div>
         <div className="inputs-wrapper">
-          <input type="rang"  id='javascript' className="inputs"/>
+          <input type="rang" readOnly   id='javascript' className="inputs"/>
         </div>
       </div>
 
@@ -56,7 +56,7 @@ const Skills =()=>{
           <span>60%</span>
         </div>
         <div className="inputs-wrapper">
-          <input type="rang"  id='jquery' className="inputs" />
+          <input type="rang" readOnly   id='jquery' className="inputs" />
         </div>
       </div>
 
@@ -66,7 +66,7 @@ const Skills =()=>{
           <span>60%</span>
         </div>
         <div className="inputs-wrapper">
-          <input type="rang"  id='react' className="inputs" />
+          <input type="rang" readOnly   id='react' className="inputs" />
         </div>
       </div>
 
@@ -78,7 +78,7 @@ const Skills =()=>{
           <span>70%</span>
         </div>
         <div className="inputs-wrapper">
-          <input type="rang"  id='mysql' className="inputs" />
+          <input type="rang" readOnly   id='mysql' className="inputs" />
         </div>
       </div>
 
@@ -88,7 +88,7 @@ const Skills =()=>{
           <span>70%</span>
         </div>
         <div className="inputs-wrapper">
-          <input type="rang"  id='posgresql' className="inputs" />
+          <input type="rang" readOnly   id='posgresql' className="inputs" />
         </div>
       </div>
 
@@ -98,7 +98,7 @@ const Skills =()=>{
           <span>70%</span>
         </div>
         <div className="inputs-wrapper">
-          <input type="rang"  id='mongodb' className="inputs" />
+          <input type="rang" readOnly   id='mongodb' className="inputs" />
         </div>
       </div>
 
@@ -108,7 +108,7 @@ const Skills =()=>{
           <span>70%</span>
         </div>
         <div className="inputs-wrapper">
-          <input type="rang"  id='orm' className="inputs" />
+          <input type="rang" readOnly   id='orm' className="inputs" />
         </div>
       </div>
 
@@ -118,7 +118,7 @@ const Skills =()=>{
           <span>70%</span>
         </div>
         <div className="inputs-wrapper">
-          <input type="rang"  id='php' className="inputs" />
+          <input type="rang" readOnly   id='php' className="inputs" />
         </div>
       </div>
 
@@ -128,7 +128,7 @@ const Skills =()=>{
           <span>70%</span>
         </div>
         <div className="inputs-wrapper">
-          <input type="rang"  id='laravel' className="inputs" />
+          <input type="rang" readOnly   id='laravel' className="inputs" />
         </div>
       </div>
 
@@ -138,7 +138,7 @@ const Skills =()=>{
           <span>60%</span>
         </div>
         <div className="inputs-wrapper">
-          <input type="rang"  id='node' className="inputs" />
+          <input type="rang" readOnly   id='node' className="inputs" />
         </div>
       </div>
 
@@ -148,7 +148,7 @@ const Skills =()=>{
           <span>70%</span>
         </div>
         <div className="inputs-wrapper">
-          <input type="rang"  id='express' className="inputs" />
+          <input type="rang" readOnly   id='express' className="inputs" />
         </div>
       </div>
 
@@ -158,7 +158,7 @@ const Skills =()=>{
           <span>60%</span>
         </div>
         <div className="inputs-wrapper">
-          <input type="rang"  id='rest' className="inputs" />
+          <input type="rang" readOnly   id='rest' className="inputs" />
         </div>
       </div>
 
@@ -168,15 +168,9 @@ const Skills =()=>{
           <span>80%</span>
         </div>
         <div className="inputs-wrapper">
-          <input type="rang"  id='git' className="inputs" />
+          <input type="rang" readOnly   id='git' className="inputs" />
         </div>
       </div>
-
-
-
-
-
-
     </section>
   )
 }

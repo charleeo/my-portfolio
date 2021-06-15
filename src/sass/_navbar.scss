@@ -8,7 +8,7 @@ nav{
  
   .logo{
     flex: 2;
-    color: #000000;
+    color: #ffffff;
     padding-left: 20px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 3rem;
@@ -63,7 +63,8 @@ nav{
 }
 
 .hidden-nav{
-  background: linear-gradient(to bottom,  #141216 100%, #05010a );
+  background: #ffffff; 
+  // linear-gradient(to bottom,  #141216 100%, #05010a );
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -74,7 +75,7 @@ nav{
   .link-items{
     margin: 10px;
     .anchors{
-      color: #ffffff;
+      color: #000000;
     }
   }
 }
@@ -87,15 +88,25 @@ nav{
 
 
 .nav{
-  background: #58278a;
+  background: #ffffff;
   position: fixed;
   width: 100%;
   left: 0;
   top: 0px;
   z-index: 200;
   .logo{
-    color: #ffffff;
+    color: #0a0909;
   }
+  .links{
+    .link-items{
+      .anchors{
+        color: #000000;
+      }
+    }
+  }
+}
+.nav-c{
+  background: #020131;
   .links{
     .link-items{
       .anchors{
@@ -103,7 +114,17 @@ nav{
       }
     }
   }
-}
-.nav-c{
-  background: #ffffff;
+  .toggler{
+    .toggle-bar:first-child{
+      background: #ffffff;
+    }
+    .toggle-bar:nth-child(2){
+      background: #ffffff;
+    }
+    .toggle-bar:nth-child(3){
+      background: #ffffff;
+    }
+
+  }
+
 }

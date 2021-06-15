@@ -6,6 +6,7 @@
    justify-content: space-between;
    flex-wrap: wrap;
    margin-bottom: 30px;
+   border-bottom: 2px solid #7f837f;
    .project-image{
      margin-bottom: 20px;
     flex: 6;
@@ -19,14 +20,14 @@
      flex: 3;
      margin: 0px 10px;
      color: #000000;
-     line-height: 1.2;
-     box-shadow: 2px 3px 4px 6px #777474;
+     line-height: 1.5;
+     box-shadow: 10px 3px 4px 1px #f0efef;
      padding: 0px 10px;
    }
    .developer-role{
      text-align: center;
-     border-top: 3px solid #53024d;
-     box-shadow: 10px 3px 4px 1px #535252;
+    //  border-top: 3px solid #110253;
+     box-shadow: 10px 3px 4px 1px #f0efef;
      padding: 0px 5px;
      .tools{
        font-size: 0.7rem;
@@ -35,8 +36,8 @@
        }
      }
      .role{
-       color: #800080;
-       border-top: 3px solid #000000;
+       color: #250252;
+      //  border-top: 3px solid #000000;
      }
    }
   }
